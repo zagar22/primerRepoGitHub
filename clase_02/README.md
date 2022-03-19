@@ -22,3 +22,30 @@ git log --after="2020-02-01"
 git log --before="2020-02-01"
 git log --after="2020-02-01" --before="2020-05-21" --oneline
 ```
+# Git BRANCH
+
+
+## creo la rama
+```sh
+git branch dev
+```
+
+## listo la rama
+```sh
+git branch dev
+```
+
+## para cambiar la rama hago un switch
+```sh
+git switch <nombre de la rama>
+```
+
+## Eliminar una rama 
+```sh
+git branch -d <nombre de la rama>
+```
+
+## para forzar Eliminar una rama 
+```sh
+git branch -D <nombre de la rama>
+```

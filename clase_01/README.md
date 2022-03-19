@@ -61,3 +61,25 @@ git config --global.core.editor "nano"
 git init
 ```
 
+### agrego archivos al stage area o index
+
+```sh
+git add <nombre-archivo>
+git add .
+git add *.js
+```
+### puedo hacer un commit(saco foto snapshoot)
+```sh
+git commit # me abre el editor por defecto que tengo configurado
+git commit -m "mensaje descriptivo del commit"
+```
+### ver la historia, listar commit
+```sh
+git log #Version larga detallada
+git log -- oneline # version corta resumida
+```
+
+### lo que tengo en el working directori contra lo que tengo en el REPO
+```sh
+git diff README.md
+```

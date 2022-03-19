@@ -22,6 +22,7 @@ git log --after="2020-02-01"
 git log --before="2020-02-01"
 git log --after="2020-02-01" --before="2020-05-21" --oneline
 ```
+
 # Git BRANCH
 
 
@@ -48,4 +49,28 @@ git branch -d <nombre de la rama>
 ## para forzar Eliminar una rama 
 ```sh
 git branch -D <nombre de la rama>
+
+
+# Git STASH
+```sh
+es una pila que almacena el working directory
+permite almacenar el WD para seguir trabajando.
+solo los stash que creo estan en la copia local del repo
+```
+
+## creo un stash
+
+```sh
+git stash
+```
+
+## ver los stash
+```sh
+git stash list
+```
+
+## Recuperar un stash
+```sh
+git stash pop
+
 ```

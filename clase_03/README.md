@@ -35,3 +35,4 @@ git config --global --get-regexp user
 ```
 
 ## nueva cuestion
+mira que buenpo

@@ -49,7 +49,7 @@ git branch -d <nombre de la rama>
 ## para forzar Eliminar una rama 
 ```sh
 git branch -D <nombre de la rama>
-
+```
 
 # Git STASH
 ```sh

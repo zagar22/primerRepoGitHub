@@ -36,3 +36,5 @@ git config --global --get-regexp user
 
 ## nueva cuestion
 mira que buenpo
+muy interesante esta nueva cuestion
+no era TAN INTERESANTE

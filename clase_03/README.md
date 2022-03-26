@@ -33,3 +33,5 @@ git config --global --get-regexp alias
 git config --global --get-regexp user
 >>>>>>> nueva-rama-clase-03
 ```
+
+## nueva cuestion
